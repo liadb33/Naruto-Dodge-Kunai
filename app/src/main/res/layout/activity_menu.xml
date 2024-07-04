@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/narutobg">
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/menu_button_mode"
+        android:backgroundTint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="300dp"
+        android:text="@string/button_mode"
+        app:icon="@drawable/remote_controller_ic"
+        app:iconTint="@null"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+
+    </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/menu_sensors_mode"
+        android:backgroundTint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="120dp"
+        android:text="@string/sensors_mode"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:icon="@drawable/rotate_phone"
+        app:iconTint="@null"
+        >
+
+    </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/menu_record_screen"
+        android:backgroundTint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="135dp"
+        android:text="Records"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:icon="@drawable/scoreboard"
+        app:iconTint="@null"
+        >
+
+    </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shinobi Dodge Master"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="courier"
+        >
+
+
+    </TextView>
+</RelativeLayout>
