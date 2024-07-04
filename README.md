@@ -6,3 +6,4 @@ Google GeoCoder - Translating coordinates to Address,
 SharedPreferencesV3,
 Longer and wider track,
 More obstacles.
+Score and ScoreBoard.
