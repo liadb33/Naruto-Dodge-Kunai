@@ -34,9 +34,11 @@ public class ScoreManager {
     public void saveNewScore(int score, double latitude, double longitude, String address) {
         Score newScore = new Score(score, latitude, longitude, address);
         ScoreList scoreList = loadScoreList();
-        scoreList.addScore(newScore);
-        scoreList.sortRecords();
 
+        if(scoreList.getRecords().size() < FIRST_TEN || newScore.getValue() > scoreList.getRecordScore(FIRST_TEN-1)){
+            scoreList.addScore(newScore);
+            scoreList.sortRecords();
+        }
 
         String scoreListAsJson = gson.toJson(scoreList);
         Log.d("JSON", scoreListAsJson);
