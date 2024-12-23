@@ -16,9 +16,7 @@ A challenging and fun Android game where you dodge incoming kunai using either b
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Introduction
 
