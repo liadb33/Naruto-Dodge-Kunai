@@ -3,10 +3,11 @@
 A challenging and fun Android game where you dodge incoming kunai using either button controls or device motion sensors! Earn points, avoid collisions, and strive for the highest score!
 
 <p align="center">
-  <img src="https://github.com/yourusername/Naruto-Dodge-Kunai/blob/main/screenshots/game_screenshot.png" alt="Game Screenshot" width="300">
+  <img src="https://github.com/user-attachments/assets/04f4cddd-62fb-4d3a-859b-e4ef346f4ae6" alt="Game Screenshot" width="300">
 </p>
 
-*Replace the image path with the path to a real screenshot of your game*
+
+
 
 ## Table of Contents
 - [Introduction](#introduction)
